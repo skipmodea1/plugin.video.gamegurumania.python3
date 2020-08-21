@@ -12,7 +12,7 @@ import requests
 import xbmc
 import xbmcgui
 import xbmcplugin
-from .gamegurumania_const import LANGUAGE, IMAGES_PATH, ADDON, DATE, VERSION, HEADERS, convertToUnicodeString, log, getSoup
+from resources.lib.gamegurumania_const import LANGUAGE, IMAGES_PATH, ADDON, DATE, VERSION, HEADERS, convertToUnicodeString, log, getSoup
 
 #
 # Main class
