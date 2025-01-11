@@ -174,7 +174,7 @@ class Main(object):
 
             log("title", title)
 
-            youtube_url = 'plugin://plugin.video.youtube/?action=play_video&videoid=%s' % youtubeID
+            youtube_url = 'plugin://plugin.video.youtube/play/?video_id=%s' % youtubeID
 
             log("youtube_url", youtube_url)
 
